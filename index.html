@@ -1,7 +1,33 @@
+layout: splash
+header:
+  overlay_color: "#1A1814"
+  overlay_filter: 0.5
+  overlay_image: /assets/images/header-bg.jpg
+  actions:
+    - label: "Explore My Programs"
+      url: "/services/"
+excerpt: "Helping IT professionals lead, collaborate & thrive under pressure."
+title: "Thư Annie Nguyễn"
+
+feature_row:
+  - image_path: /assets/images/ownership.jpg
+    title: "Leading with Ownership"
+    excerpt: "Develop accountability and lead without waiting for permission."
+    url: "/services/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/eq.jpg
+    title: "Teamwork with EQ"
+    excerpt: "Build high-trust teams through empathy and communication."
+    url: "/services/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/stress.jpg
+    title: "STRESS to STRENGTH"
+    excerpt: "Transform pressure into clarity, resilience and peak output."
+    url: "/services/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+
+{% include feature_row %}
