@@ -58,9 +58,11 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Thư Annie"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Reducing project risk and improving delivery quality through stronger ownership and people leadership in tech teams | Trainer & coach | Facilitator at Crestcom & Climate Fresk | MBA"
+  email: "annie.nbathu@gmail.com"
+  location : "Ho Chi Minh City, Vietnam"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
